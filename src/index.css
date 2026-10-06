@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+button {
+  @apply rounded-md mt-5 bg-blue-600 px-4 py-2 text-white hover:bg-blue-700;
+}
