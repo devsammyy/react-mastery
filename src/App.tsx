@@ -1,11 +1,12 @@
-import RandomColor from "./components/random-color";
+import StarRating from "./components/star-rating";
 
 const App = () => {
   return (
-    <>
+    <div className="flex flex-col gap-10">
       {/* <Accordion /> */}
-      <RandomColor />
-    </>
+      {/* <RandomColor /> */}
+      <StarRating numOfStars={10} />
+    </div>
   );
 };
 

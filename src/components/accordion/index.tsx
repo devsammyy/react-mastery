@@ -33,6 +33,7 @@ const Accordion = () => {
   return (
     <>
       <div className="w-lg flex flex-col gap-3">
+        <h1>Accordion</h1>
         <button
           onClick={() => setEnableMultiSelection(!enableMultiSelection)}
           className="bg-[#614101] text-white w-10/12 px-3 py-6"
