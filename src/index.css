@@ -11,3 +11,7 @@
 button {
   @apply rounded-md mt-5 bg-blue-600 px-4 py-2 text-white hover:bg-blue-700;
 }
+
+.arrow-btn {
+  @apply absolute z-20 w-8 h-8 text-white drop-shadow-2xl;
+}
